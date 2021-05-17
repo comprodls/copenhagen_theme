@@ -9,13 +9,15 @@
   width: 100%;
 
   &-inner {
-    @include vertical-align;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
     max-width: 610px;
     margin: 0 auto;
     h1 {
       line-height: 1.0;
       margin: 5px 0;
-      font-size: 38px;
+      font-size: 48px;
     }
     span {
       color: #777;
