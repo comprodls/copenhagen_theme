@@ -123,3 +123,9 @@ ul {
 .visibility-hidden {
   @include visually-hidden;
 }
+
+table {
+  td {
+    border: 1px solid #ddd;
+  }
+}

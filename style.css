@@ -341,6 +341,10 @@ ul {
   white-space: nowrap;
 }
 
+table td {
+  border: 1px solid #ddd;
+}
+
 /***** Buttons *****/
 .button, .split-button button, .section-subscribe button, .article-subscribe button, .community-follow button, .requests-table-toolbar .organization-subscribe button, .subscriptions-subscribe button, .pagination-next-link, .pagination-prev-link, .pagination-first-link, .pagination-last-link {
   background-color: transparent;
@@ -1200,11 +1204,13 @@ ul {
 
 .blocks-item-title {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .blocks-item-description {
   margin: 0;
+  font-size: 14px;
+  color: #777;
 }
 
 .blocks-item-description:not(:empty) {

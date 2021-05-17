@@ -76,11 +76,13 @@
 
   &-item-title {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   &-item-description {
     margin: 0;
+    font-size: 14px;
+    color: #777;
   }
 
   &-item-description:not(:empty) {
