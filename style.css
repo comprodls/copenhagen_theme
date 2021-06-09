@@ -190,7 +190,7 @@ body {
   background-color: $background_color;
   color: $text_color;
   font-family: $text_font;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -488,7 +488,7 @@ table td {
 .table th,
 .table th a {
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -543,7 +543,7 @@ table td {
 
 .form-field label {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 5px;
 }
 
@@ -621,7 +621,7 @@ table td {
 }
 
 .form .suggestion-list {
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 30px;
 }
 
@@ -948,7 +948,7 @@ table td {
 .breadcrumbs li {
   color: lighten($text_color, 20%);
   display: inline;
-  font-size: 13px;
+  font-size: 16px;
   max-width: 450px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1120,7 +1120,7 @@ table td {
 }
 
 .sub-nav input[type="search"]::after {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /***** Blocks *****/
@@ -1325,7 +1325,7 @@ table td {
 }
 
 .recent-activity-item-parent {
-  font-size: 16px;
+  font-size: 32px;
 }
 
 .recent-activity-item-parent, .recent-activity-item-link {
@@ -1364,7 +1364,7 @@ table td {
 .recent-activity-item-time, .recent-activity-item-comment {
   color: lighten($text_color, 20%);
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .recent-activity-item-comment {
@@ -1470,7 +1470,7 @@ table td {
 }
 
 .article-list-item {
-  font-size: 16px;
+  font-size: 32px;
   padding: 15px 0;
 }
 
@@ -1505,7 +1505,7 @@ table td {
 
 .section-list-item {
   border-bottom: 1px solid #ddd;
-  font-size: 16px;
+  font-size: 32px;
   padding: 15px 0;
 }
 
@@ -1794,7 +1794,7 @@ table td {
 }
 
 .sidenav-title {
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   font-weight: 600;
 }
@@ -1909,7 +1909,7 @@ table td {
 .comment-callout {
   color: lighten($text_color, 20%);
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1924,7 +1924,7 @@ table td {
 
 .comment-sorter .dropdown-toggle {
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 [dir="rtl"] .comment-sorter {
@@ -2269,7 +2269,7 @@ table td {
 /* Community topic page */
 .topic-header {
   border-bottom: 1px solid #ddd;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -2419,7 +2419,7 @@ table td {
 
 .striped-list-count {
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
   justify-content: flex-start;
   text-transform: capitalize;
 }
@@ -3148,7 +3148,7 @@ table td {
 }
 
 .requests-table-toolbar .request-filter-label {
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 30px;
 }
 
@@ -3281,7 +3281,7 @@ table td {
 /* Contributions table */
 .contributions-table td:last-child {
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -3425,7 +3425,7 @@ table td {
   .request-sidebar {
     background-color: darken($background_color, 3%);
     border: 0;
-    font-size: 13px;
+    font-size: 16px;
     flex: 0 0 auto;
     padding: 0 20px;
     width: 30%;
@@ -3433,7 +3433,7 @@ table td {
 }
 
 .request-sidebar h2 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   position: relative;
 }
@@ -3458,7 +3458,7 @@ table td {
 .request-details dt, .request-details dd {
   display: inline-block;
   vertical-align: top;
-  font-size: 13px;
+  font-size: 16px;
   margin: 20px 0 0 0;
 }
 
@@ -3576,7 +3576,7 @@ table td {
 
 .meta-data {
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .meta-data:not(:last-child)::after {
@@ -3694,7 +3694,7 @@ table td {
 }
 
 .profile-stats {
-  font-size: 13px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -3867,7 +3867,7 @@ table td {
   flex-basis: 100%;
   padding: 10px 0;
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -3883,7 +3883,7 @@ table td {
 .profile-section-sorter {
   flex-basis: 100%;
   border-top: solid 1px #eee;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .profile-section-sorter .dropdown-toggle {
@@ -3954,7 +3954,7 @@ table td {
 }
 
 .profile-badges-item-title, .profile-badges-item-metadata-title {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -3964,7 +3964,7 @@ table td {
 
 .profile-badges-item-description, .profile-badges-item-metadata-description {
   color: lighten($text_color, 20%);
-  font-size: 13px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -4387,7 +4387,7 @@ table td {
 }
 
 .search-result-title {
-  font-size: 16px;
+  font-size: 32px;
   display: inline-block;
 }
 
@@ -4402,7 +4402,7 @@ table td {
 .search-result-votes, .search-result-meta-count {
   color: lighten($text_color, 20%);
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
   padding: 4px 5px;
   position: relative;
 }

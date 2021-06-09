@@ -1,7 +1,7 @@
 {
   "name": "Copenhagen (comproDLS)",
   "author": "Zendesk",
-  "version": "2.10.4",
+  "version": "2.10.5",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
