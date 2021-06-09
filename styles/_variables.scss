@@ -1,10 +1,10 @@
 // Variables
 
 // Colors
-$brand_color: #17494d !default;
+$brand_color: #6200ee !default;
 $brand_text_color: #fff !default; //Color for text with an accent color background
-$text_color: #333 !default;
-$link_color: #17494d !default;
+$text_color: rgba(0,0,0,0.87) !default;
+$link_color: #6200ee !default;
 $background_color: #fff !default;
 
 $hover-button-color: zass-darken($brand_color, 20%);
@@ -13,12 +13,11 @@ $secondary-text-color: zass-lighten($text_color, 20%);
 $primary-shade: zass-darken($background_color, 3%); //#f8f8f8 for the default background_color
 $secondary-shade: zass-darken($background_color, 5%); //#f2f2f2 for the default background_color
 
-
-$font-size-bigger: 32px;
-$font-size-base: 20px;
-$font-size-navigation: 14px;
-$font-size-small: 16px;
-$font-size-smaller: 13px;
+$font-size-bigger: 20px;
+$font-size-base: 16px;
+$font-size-navigation: 16px;
+$font-size-small: 14px;
+$font-size-smaller: 12px;
 
 $border-color: #ddd;
 
