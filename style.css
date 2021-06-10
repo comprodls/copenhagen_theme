@@ -1169,7 +1169,7 @@ table td {
 }
 
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
-  color: $brand_text_color;
+  color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
 }
 
