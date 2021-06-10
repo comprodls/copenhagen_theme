@@ -18,9 +18,13 @@
       line-height: 1.0;
       margin: 5px 0;
       font-size: 48px;
+      font-weight: 300;
+      color: rgba(0,0,0,0.87);
     }
     span {
-      color: #777;
+      color: rgba(0,0,0, 0.87);
+      display: block;
+      line-height: 1.2;
     }
   }
 }
