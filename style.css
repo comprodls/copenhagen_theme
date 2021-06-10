@@ -708,7 +708,7 @@ table td {
   border: 0;
   color: $link_color;
   display: none;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 20px 0 0;
   width: auto;
 }
@@ -1040,10 +1040,14 @@ table td {
   line-height: 1.0;
   margin: 5px 0;
   font-size: 48px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .hero-inner span {
-  color: #777;
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  line-height: 1.2;
 }
 
 .page-header {
