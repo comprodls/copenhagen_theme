@@ -15,7 +15,7 @@
 }
 
 .section-tree {
-  @include tablet { flex-direction: row; }
+  /* @include tablet { flex-direction: row; } */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -41,11 +41,20 @@
 }
 
 .article-list {
+  margin-top: 32px;
   &-item {
-    font-size: $font-size-bigger;
-    padding: 15px 0;
+    font-size: 20px;
+    margin: 16px 0;
+    &:before {
+      content: "\2022";
+      color: #2669EE;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
 
-    a { color: $text_color; }
+    a { color: #2669EE; }
   }
 }
 
