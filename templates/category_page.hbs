@@ -24,11 +24,10 @@
         {{#each sections}}
           <section class="section">
             <h2 class="section-tree-title">
-             
+              <a href="{{url}}">{{name}}</a>
             </h2>
             {{#if articles}}
               <ul class="article-list">
-                <li class="article-list-item"> <a href="{{url}}">{{name}}</a> </li>
                 {{#each articles}}
                   <li class="article-list-item{{#if promoted}} article-promoted{{/if}}">
                     {{#if promoted}}

@@ -24,6 +24,12 @@
   .section {
     @include tablet { flex: 0 0 45%; /* Two columns for tablet and desktop. Leaving 5% separation between columns */ }
     flex: initial;
+    border-bottom: 1px solid #E8ECF3;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    &:last-child {
+      border : 0 none;
+    }
   }
 
   &-title {
@@ -31,7 +37,13 @@
     font-size: 18px;
     font-weight: $font-weight-semibold;
 
-    a { color: $text_color; }
+    a { 
+      color: $text_color; 
+      font-size: 1.333em;
+      line-height: 1.55em;
+      margin: .5rem 0 1rem;
+      font-weight: 300;
+    }
   }
 
   .see-all-articles {
@@ -41,9 +53,8 @@
 }
 
 .article-list {
-  margin-top: 32px;
   &-item {
-    font-size: 20px;
+    font-size: 18px;
     margin: 16px 0;
     &:before {
       content: "\2022";
