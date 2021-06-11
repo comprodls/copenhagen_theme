@@ -1080,8 +1080,8 @@ table td {
 
 .page-header h1 {
   flex-grow: 1;
-  margin-bottom: 10px;
-  font-size: 32px;
+  margin-bottom: 40px;
+  font-size: 36px;
   color: rgba(0, 0, 0, 0.87);
   font-weight: 300;
 }
@@ -1451,6 +1451,9 @@ table td {
 
 .section-tree .section {
   flex: initial;
+  border-bottom: 1px solid #E8ECF3;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {
@@ -1458,6 +1461,10 @@ table td {
     flex: 0 0 45%;
     /* Two columns for tablet and desktop. Leaving 5% separation between columns */
   }
+}
+
+.section-tree .section:last-child {
+  border: 0 none;
 }
 
 .section-tree-title {
@@ -1468,6 +1475,10 @@ table td {
 
 .section-tree-title a {
   color: $text_color;
+  font-size: 1.333em;
+  line-height: 1.55em;
+  margin: .5rem 0 1rem;
+  font-weight: 300;
 }
 
 .section-tree .see-all-articles {
@@ -1475,12 +1486,8 @@ table td {
   padding: 15px 0;
 }
 
-.article-list {
-  margin-top: 32px;
-}
-
 .article-list-item {
-  font-size: 20px;
+  font-size: 18px;
   margin: 16px 0;
 }
 
